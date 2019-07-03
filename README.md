@@ -27,11 +27,11 @@
 
 ##The Description Title
 
-(Maybe a nice intro picture/title photo)
+![Screenshot 2019-07-03 at 23 40 15](https://user-images.githubusercontent.com/40900195/60629114-5c6cfd00-9dec-11e9-9c1e-512d7bc8c874.png)
 
 ### Overview
 
-*<u>Link to Live site</u>*
+[_Link to live site_]([_Link to live site_](https://sammii-hk.github.io/SEI-Project-2-NASA/))
 
 ### Introduction
 
@@ -45,11 +45,13 @@ When the application loads, you enter a launchpad home page where the user can s
 
 The Mars Rover index page is (something) by date, and displays all of the images available from that search.
 
+<img width="1680" alt="Screenshot 2019-07-03 at 23 40 24" src="https://user-images.githubusercontent.com/40900195/60629116-6131b100-9dec-11e9-903c-51e645896f8f.png">
+
 If an image is selected, you enter the Mars Rover show page, where the image is selected and information about when that miage was taken and what camera was it taken from is displayed.
 
-
-
 Astronomy Picture of the Day index page
+
+<img width="1680" alt="Screenshot 2019-07-03 at 23 40 40" src="https://user-images.githubusercontent.com/40900195/60629122-668efb80-9dec-11e9-9d1b-535fd470ef6a.png">
 
 ## Process
 
