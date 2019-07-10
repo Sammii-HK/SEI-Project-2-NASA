@@ -1,6 +1,6 @@
 # NASA API & React APP – SEI Project 2
 
-[Live Site](*https://sammii-hk.github.io/SEI-Project-2-NASA/#/*) 
+[Live Site](*https://sammii-hk.github.io/SEI-Project-2-NASA/#/*): https://sammii-hk.github.io/SEI-Project-2-NASA/#/
 
 ### Timeframe
 
@@ -26,13 +26,13 @@
 1. Clone or download the repo
 2. Open the `index.html` in your browser of choice
 
-##The Description Title
+##Description
 
 ![Screenshot 2019-07-03 at 23 40 15](https://user-images.githubusercontent.com/40900195/60629114-5c6cfd00-9dec-11e9-9c1e-512d7bc8c874.png)
 
 ### Overview
 
-[_Link to live site_]([_Link to live site_](https://sammii-hk.github.io/SEI-Project-2-NASA/))
+[_Link to live site_](https://sammii-hk.github.io/SEI-Project-2-NASA/)): https://sammii-hk.github.io/SEI-Project-2-NASA/#/
 
 ### Introduction
 
