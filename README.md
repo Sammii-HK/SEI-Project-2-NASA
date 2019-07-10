@@ -44,7 +44,7 @@ Liam and I worked in a pair to create a front-end web application. We chose to u
 
 When the application loads, you enter a launchpad home page where the user can select to either enter the Mars Rover section or Astronomy Picture of the Day.
 
-The Mars Rover index page is (something) by date, and displays all of the images available from that search.
+The Mars Rover index page uses a request to the API which is categorised by date, and displays all of the images available from that search.
 
 <img width="1680" alt="Screenshot 2019-07-03 at 23 40 24" src="https://user-images.githubusercontent.com/40900195/60629116-6131b100-9dec-11e9-903c-51e645896f8f.png">
 
