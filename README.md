@@ -11,15 +11,14 @@
 - React
 - HTML 5
 - SCSS
-- REST APIs
+- NASA APIs
 - JavaScript [ES6]
-- Express
-- Ajax
 - Bulma (CSS framework)
 - GitHub
 - Git
 - Node.js
 - Webpack
+- Insomnia
 
 ## Installation
 
@@ -38,8 +37,6 @@
 
 Liam and I worked in a pair to create a front-end web application. We chose to use NASA's APIs to include data from the Mars Rover and images from Astronomy Picture of the Day. It is an informational web application, where the APIs can be searched by date.
 
-### Controls (not necessary)
-
 ### Instructions
 
 When the application loads, you enter a launchpad home page where the user can select to either enter the Mars Rover section or Astronomy Picture of the Day.
@@ -49,6 +46,8 @@ The Mars Rover index page uses a request to the API which is categorised by date
 <img width="1680" alt="Screenshot 2019-07-03 at 23 40 24" src="https://user-images.githubusercontent.com/40900195/60629116-6131b100-9dec-11e9-903c-51e645896f8f.png">
 
 If an image is selected, you enter the Mars Rover show page, where the image is selected and information about when that miage was taken and what camera was it taken from is displayed.
+
+<img width="1680" alt="Screenshot 2019-07-03 at 23 40 24" src="https://user-images.githubusercontent.com/40900195/60989884-fed23680-a33e-11e9-9473-93ddc3e77075.png">
 
 Astronomy Picture of the Day index page
 
@@ -66,6 +65,20 @@ Throughout the project there were some difficulties:
 
 - The API we chose, although interesting, was not easy to use, particularly for our first project using an API
 - The API's given information was quite limitied which restricted the possibilities of our App, so going forward I would look to find an alternative, or incorporate more than one 
+- The calendar and NASA's way of formatting dates were different so we had to come up with a way to format the user's selected date before it was sent off to NASA's API
+
+```javascript
+  updateImages(randomDate = null){
+    axios.get('https://api.nasa.gov/planetary/apod', {
+      params: {
+        date: randomDate || this.state.date.toISOString().substr(0,10),
+        hd: true,
+        api_key: 123456
+      }
+    })
+      .then(res => this.setState({data: res.data }))
+  }
+```
 
 ### Wins
 
@@ -73,6 +86,18 @@ Within the project we had quite a few achievements:
 
 - Due to the limitation of the API, we managed two APIs within a single app
 - We made good use of the JavaScript logic to calculate a random date for pick from the calendar, which created a better user experience
+
+```javascript
+randomDatePicker(){
+  const randomYear = Math.floor(Math.random() * 7)
+  const randomMonth = Math.ceil(Math.random() * 12)
+  const randomDay = Math.ceil(Math.random() * 28)
+  const year = 2012 + randomYear
+  const randomDate = `${year}-${randomMonth}-${randomDay}`
+
+  this.setState({date: randomDate}, () => this.updateImages(randomDate))
+}
+```
 
 ## Future features
 
