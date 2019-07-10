@@ -1,6 +1,6 @@
 # NASA API & React APP – SEI Project 2
 
-[Live Site](*https://sammii-hk.github.io/SEI-Project-2-NASA/#/*): https://sammii-hk.github.io/SEI-Project-2-NASA/#/
+[Live Site](https://sammii-hk.github.io/SEI-Project-2-NASA/#/): https://sammii-hk.github.io/SEI-Project-2-NASA/#/
 
 ### Timeframe
 
