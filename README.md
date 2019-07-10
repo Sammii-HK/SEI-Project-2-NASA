@@ -1,4 +1,6 @@
-# Project 2: API & React APP – NASA
+# NASA API & React APP – SEI Project 2
+
+[Live Site](*https://sammii-hk.github.io/SEI-Project-2-NASA/#/*) 
 
 ### Timeframe
 
@@ -18,7 +20,6 @@
 - Git
 - Node.js
 - Webpack
-- Other stuff...
 
 ## Installation
 
@@ -61,15 +62,21 @@ Astronomy Picture of the Day index page
 
 ### Challenges
 
+Throughout the project there were some difficulties:
 
+- The API we chose, although interesting, was not easy to use, particularly for our first project using an API
+- The API's given information was quite limitied which restricted the possibilities of our App, so going forward I would look to find an alternative, or incorporate more than one 
 
 ### Wins
 
+Within the project we had quite a few achievements:
 
+- Due to the limitation of the API, we managed two APIs within a single app
+- We made good use of the JavaScript logic to calculate a random date for pick from the calendar, which created a better user experience
 
 ## Future features
 
-
+Going forward I want to expand the features of this app, I want to explore other APIs within a similar theme, to build upon the base app which we have already created and add more functionality, to explore what I can achieve.
 
 
 
