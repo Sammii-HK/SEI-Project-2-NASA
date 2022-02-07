@@ -31,7 +31,7 @@
 
 ### Overview
 
-[_Link to live site_](https://sammii-hk.github.io/SEI-Project-2-NASA/): https://sammii-hk.github.io/SEI-Project-2-NASA/#/
+[_Link to live site_](sammii.dev/nasa-api): https://sammii.dev/nasa-api/#/
 
 ### Introduction
 
